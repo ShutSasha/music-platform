@@ -3,7 +3,7 @@ import { HydratedDocument } from 'mongoose'
 import { Track } from './track.schema'
 import * as mongoose from 'mongoose'
 
-export type TrackDocument = HydratedDocument<Comment>
+export type CommentDocument = HydratedDocument<Comment>
 
 @Schema()
 export class Comment {
